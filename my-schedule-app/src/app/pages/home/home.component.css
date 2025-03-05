@@ -1,0 +1,33 @@
+.Row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 10%;
+
+    
+}
+
+.Row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 20px;
+}
+
+.Ross {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    top: 138px;
+    left: -173px;
+    
+}
+
+.Coffee {
+    position: absolute;
+    width: 22%;
+    height: 50%;
+    bottom: 0px;
+    right: 100px;
+    
+}

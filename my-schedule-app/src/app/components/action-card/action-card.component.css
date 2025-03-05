@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    width: 400px;
+    padding-block: 25%;
+    align-items: center;
+    justify-content: center;
+    border-width: thick;
+    border-color: black;
+    border-style: solid;
+    margin-right: 20px;
+}
+
+label {
+    font-size: x-large;
+}
