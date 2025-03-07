@@ -7,6 +7,7 @@ import { RegistrationComponent } from './pages/registration/registration.compone
 export const routes: Routes = [
     { path: '', component: HomeComponent }, // Default route (Home)
     { path: 'register', component: RegistrationComponent },
+    { path: '**', redirectTo: '', pathMatch: 'full' } // Redirect unknown routes to home
 
 ];
 

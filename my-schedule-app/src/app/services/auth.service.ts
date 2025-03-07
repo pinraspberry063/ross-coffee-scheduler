@@ -37,11 +37,11 @@ export class AuthService {
     }
   }
 
-  // Logout method
-  async logout(): Promise<void> {
-    await this.afAuth.signOut();
-    this.router.navigate(['/login']);
-  }
+  // // Logout method
+  // async logout(): Promise<void> {
+  //   await this.afAuth.signOut();
+  //   this.router.navigate(['/login']);
+  // }
 
   // Get currently authenticated user
   getUser(): Observable<User | null> {

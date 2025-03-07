@@ -5,7 +5,8 @@ import { ActionCardComponent } from '../../components/action-card/action-card.co
   selector: 'app-home',
   imports: [ActionCardComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
+  standalone: true
 })
 export class HomeComponent {
 
