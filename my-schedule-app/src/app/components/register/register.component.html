@@ -1,0 +1,18 @@
+<div class="register-container">
+    <h2>Register</h2>
+    
+    <label>Email:</label>
+    <input type="email" ([(ngModel)]="email") placeholder="Enter email" required>
+  
+    <label>Password:</label>
+    <input type="password" ([(ngModel)]="password") placeholder="Enter password" required>
+  
+    <label>Role:</label>
+    <select ([(ngModel)]="role")>
+      <option value="manager">Manager</option>
+      <option value="employee" selected>Employee</option>
+    </select>
+  
+    <button (click)="register()">Register</button>
+  </div>
+  

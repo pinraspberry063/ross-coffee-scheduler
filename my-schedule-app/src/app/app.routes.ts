@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './pages/home/home.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 export const routes: Routes = [
-    {
-        path: '',
-        pathMatch : 'full',
-        loadComponent: () => {
-            return import('./pages/home/home.component').then((m) => m.HomeComponent)
-        }
-    }
+    { path: '', component: HomeComponent }, // Default route (Home)
+    { path: 'register', component: RegistrationComponent },
+
 ];
+
